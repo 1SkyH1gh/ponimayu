@@ -1,0 +1,27 @@
+.HeaderContainer{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  background: cornflowerblue;
+  .links{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left:10%;
+    align-content: center;
+    align-items: center;
+    .link{
+      font-size:14px;
+
+    }
+  }
+  .miniAvatar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+  }
+}
